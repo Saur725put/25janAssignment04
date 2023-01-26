@@ -1,0 +1,14 @@
+Q4
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double userDouble;
+    cout<<"Enter double value :";
+    cin>> userDouble;
+    int convertedInt = static_cast<int>(userDouble);
+    cout << "Original double: " << userDouble << endl;
+    cout << "Converted integer: " << convertedInt << endl;
+    return 0;
+}
